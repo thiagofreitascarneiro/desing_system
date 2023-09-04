@@ -3,8 +3,9 @@
   "workspaces": [
     "packages/*"
   ],
-  "scrpits": {
-    "dev": "turbo run dev --parallel"
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
   },
   "devDependencies": {
     "turbo": "^1.10.13"
